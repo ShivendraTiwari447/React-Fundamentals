@@ -40,7 +40,15 @@ function App() {
       
       return
     }
+
     setCounter(counter+1)
+
+    // yese hmlog bhi do barr sath me setcounter chla skte hai 
+    //  but ye prevCounter ka use krke hmlog esko setcounter me value bdha skte hai   skte hai  
+    //  dhyan rhe prevcounter hmesha arrow function rhega 
+
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
 
   }
 
