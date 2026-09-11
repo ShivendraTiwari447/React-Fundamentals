@@ -37,6 +37,7 @@ function App() {
   const addValue=()=>{
     if(counter>=20){
       console.log("maxlimit exceed")
+      
       return
     }
     setCounter(counter+1)
